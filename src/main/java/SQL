@@ -1,0 +1,6 @@
+INSERT INTO BOOKS(id, title, number_of_pages)
+VALUES(133, 'harry potter', 900, 1),
+(sbhen, 'ionbwi', 600, 12);
+
+SELECT * FROM BOOKS
+WHERE number_of_pages >= 100;
